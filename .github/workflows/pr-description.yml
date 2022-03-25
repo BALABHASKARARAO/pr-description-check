@@ -13,6 +13,3 @@ jobs:
       - uses: actions/checkout@v1
       - uses: nouzbe/check-pull-request-description@v1.11
       - uses: superbrothers/close-pull-request@v3
-          with:
-          # Optional. Post a issue comment just before closing a pull request.
-          comment: "We do not accept PR for main , due to closeing this PR."
